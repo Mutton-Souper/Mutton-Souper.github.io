@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#header p {
+    margin: 10px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #header {
+        padding: 5px 10px;
+    }
+}
