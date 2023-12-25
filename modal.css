@@ -41,11 +41,18 @@
     padding: 10px 20px;
     margin: 10px;
   }
+
   #img_coffee{
   width: 50px;
   height: 50px; 
   vertical-align: middle; /* 垂直对齐方式，可根据需要调整 */   
   }
+
+#inner_coffee{
+  width: 50px;
+  height: 50px; 
+}
+
   #coffeeBtn{
   padding: 0; /* 取消按钮的内边距 */
   margin: 0; /* 取消按钮的外边距 */
