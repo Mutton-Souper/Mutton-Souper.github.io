@@ -1,8 +1,8 @@
 // 获取模态框元素
-var modal = document.getElementById('myModal');
+var modal = document.getElementById('coffeeModal');
 
 // 获取打开按钮元素
-var btn = document.getElementById('myBtn');
+var btn = document.getElementById('coffeeBtn');
 
 // 获取关闭按钮元素（x）元素
 var span = document.getElementsByClassName('close')[0];
