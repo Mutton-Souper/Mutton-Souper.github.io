@@ -51,6 +51,7 @@
 #inner_coffee{
   width: 50px;
   height: 50px; 
+  vertical-align: middle; /* 垂直对齐方式，可根据需要调整 */  
 }
 
   #coffeeBtn{
