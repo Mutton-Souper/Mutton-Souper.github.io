@@ -49,14 +49,7 @@ KeyboardInputManager.prototype.listen = function () {
         self.emit("move", mapped);
       }
 
-      if (event.which === 32) {
-          if (confirm("是本人吗?")) {
-           self.restart.bind(self)(event);
-          }
-      }
-      else {
-        alert("别你妈瞎点,滚！“);
-      }
+      if (event.which === 32) self.restart.bind(self)(event);
     }
   });
 
@@ -103,9 +96,7 @@ KeyboardInputManager.prototype.listen = function () {
 KeyboardInputManager.prototype.restart = function (event) {
   event.preventDefault();
   this.emit("restart");
-
 };
-
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
   event.preventDefault();
