@@ -94,14 +94,16 @@ KeyboardInputManager.prototype.listen = function () {
 };
 
 KeyboardInputManager.prototype.restart = function (event) {
+  /*
   event.preventDefault();
   if (confirm("是本人吗?")) {
     this.emit("restart");
   }
   else {
     alert("别你妈瞎点,滚！“);
-  
+  */
 };
+
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
   event.preventDefault();
