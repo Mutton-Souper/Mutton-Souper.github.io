@@ -95,10 +95,11 @@ KeyboardInputManager.prototype.listen = function () {
 
 KeyboardInputManager.prototype.restart = function (event) {
   event.preventDefault();
-  if (confirm("Are you sure you want to restart the game?")) {
+  if (confirm("是本人吗?")) {
     this.emit("restart");
+  }
   else {
-    alert("别你妈瞎点“);
+    alert("别你妈瞎点,滚！“);
   
 };
 
