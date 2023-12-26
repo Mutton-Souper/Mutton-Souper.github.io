@@ -95,7 +95,11 @@ KeyboardInputManager.prototype.listen = function () {
 
 KeyboardInputManager.prototype.restart = function (event) {
   event.preventDefault();
-  this.emit("restart");
+  if (confirm("Are you sure you want to restart the game?")) {
+    this.emit("restart");
+  else {
+    alert("别你妈瞎点“);
+  
 };
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
