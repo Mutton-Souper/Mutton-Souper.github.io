@@ -1,7 +1,7 @@
-document.getElementById("modifyTextFormat").onclick = function() {
+document.getElementById("modifyTextFormat").addEventListener("click", function() {
     var inputText = document.getElementById("inputText").value;
     var lines = inputText.split('\n');
-    var processedText = '';
+    var processedLines = [];
     var i = 0;
 
     while (i < lines.length) {
